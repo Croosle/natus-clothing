@@ -17,6 +17,13 @@
       font-style: normal;
   }
 
+  @font-face {
+      font-family: 'Pixel Bold';
+      src: url('../fonts/FSEX300.woff');
+      font-weight: normal;
+      font-style: normal;
+  }
+
   * {
     margin: 0;
     padding: 0;
@@ -488,13 +495,6 @@
     left: 14px;
     top: 9px;
   }
-
-@font-face {
-    font-family: 'Pixel Bold';
-    src: url('/fonts/FSEX300.woff');
-    font-weight: normal;
-    font-style: normal;
-}
 
 .slick-slide {
   height: auto!important;
