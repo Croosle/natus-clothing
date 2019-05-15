@@ -1,6 +1,6 @@
   @font-face {
       font-family: 'WinSansSerif';
-      src: url('/fonts/bulk-webfont.ttf');
+      src: url('../fonts/bulk-webfont.ttf');
       speak: none;
       font-style: normal;
       font-weight: normal;
@@ -12,7 +12,7 @@
 
   @font-face {
       font-family: 'header';
-      src: url('/fonts/header-webfont.ttf');
+      src: url('../fonts/header-webfont.ttf');
       font-weight: normal;
       font-style: normal;
   }
@@ -38,7 +38,7 @@
 
   body {
     background-color: #008080;
-    background-image: url('/img/background-0.jpg');
+    background-image: url('../img/background-0.jpg');
     background-repeat: no-repeat;
     background-position: top center;
     background-size: auto 90%;
@@ -87,7 +87,7 @@
   }
 
   .start {
-    background-image: url('/img/start.png');
+    background-image: url('../img/start.png');
     width: 108px;
     height: 48px;
     display: inline-block;
@@ -96,7 +96,7 @@
   }
 
   .start.active {
-    background-image: url('/img/start-active.png');
+    background-image: url('../img/start-active.png');
   }
 
   .start-lines .start-line {
@@ -143,39 +143,39 @@
   }
 
   .t-short-1 {
-    background-image: url('/img/t-short-1.png');
+    background-image: url('../img/t-short-1.png');
   }
 
   .t-short-2 {
-    background-image: url('/img/t-short-2.png');
+    background-image: url('../img/t-short-2.png');
   }
 
   .t-short-3 {
-    background-image: url('/img/t-short-3.png');
+    background-image: url('../img/t-short-3.png');
   }
 
   .t-short-4 {
-    background-image: url('/img/t-short-4.png');
+    background-image: url('../img/t-short-4.png');
   }
 
   .t-short-5 {
-    background-image: url('/img/t-short-5.png');
+    background-image: url('../img/t-short-5.png');
   }
 
   .t-short-6 {
-    background-image: url('/img/t-short-6.png');
+    background-image: url('../img/t-short-6.png');
   }
 
   .cart {
-    background-image: url('/img/cart.png');
+    background-image: url('../img/cart.png');
   }
 
   .cart.fullcart {
-    background-image: url('/img/fullcart.png');
+    background-image: url('../img/fullcart.png');
   }
 
   .instagram {
-    background-image: url('/img/instagram.png');
+    background-image: url('../img/instagram.png');
   }
 
   .desktop_icon {
@@ -256,7 +256,7 @@
     border-right: 2px solid #000000;
     display: inline-block;
     float: right;
-    background-image: url('/img/window_close.png');
+    background-image: url('../img/window_close.png');
     background-position: center;
     background-repeat: no-repeat;
     cursor: pointer;
@@ -295,7 +295,7 @@
     font-size: 52px;
     line-height: 40px;
     margin-bottom: 10px;
-    background-image: url('/img/welcome-text.png');
+    background-image: url('../img/welcome-text.png');
     background-repeat: no-repeat;
     height: 40px;
   }
@@ -312,7 +312,7 @@
     left: -80px;
     width: 46px;
     height: 64px;
-    background-image: url('/img/help-icon.png');
+    background-image: url('../img/help-icon.png');
   }
 
   .window-welcome_desc {
@@ -322,7 +322,7 @@
 
   .window-welcome_body {
     padding: 50px 125px;
-    background-image: url('/img/welcome-window-background.png');
+    background-image: url('../img/welcome-window-background.png');
     background-repeat: repeat;
     background-position: center;
     border-bottom: 2px solid #ffffff;
@@ -501,31 +501,31 @@
 }
 
 .shop-icon::before {
-  background-image: url('/img/shop-icon.png');
+  background-image: url('../img/shop-icon.png');
 }
 
 .collections-icon::before {
-  background-image: url('/img/collection-icon.png');
+  background-image: url('../img/collection-icon.png');
 }
 
 .lookbook-icon::before {
-  background-image: url('/img/lookbook-icon.png');
+  background-image: url('../img/lookbook-icon.png');
 }
 
 .about-icon::before {
-  background-image: url('/img/about-icon.png');
+  background-image: url('../img/about-icon.png');
 }
 
 .help-icon::before {
-  background-image: url('/img/helpbook-icon.png');
+  background-image: url('../img/helpbook-icon.png');
 }
 
 .cart-icon::before {
-  background-image: url('/img/cart-icon.png');
+  background-image: url('../img/cart-icon.png');
 }
 
 .checkout-icon::before {
-  background-image: url('/img/checkout-icon.png');
+  background-image: url('../img/checkout-icon.png');
 }
 
 hr {
@@ -553,7 +553,7 @@ hr {
 
 .window_footer {
   margin: 8px;
-  background: url('/img/angle.png');
+  background: url('../img/angle.png');
   background-repeat: no-repeat;
   background-position: right -2px bottom -2px;
   box-shadow: -1px -1px 0 1px #7b7d7b,
@@ -1022,7 +1022,7 @@ hr {
   height: 6px;
   margin-top: 7px;
   margin-left: -4px;
-  background-image: url('/img/size-text.png');
+  background-image: url('../img/size-text.png');
 }
 
 .shirt-sizes {
@@ -1212,11 +1212,11 @@ hr {
     left: 0;
     height: 24px;
     width: 24px;
-    background-image: url('/img/radio-icon.png');
+    background-image: url('../img/radio-icon.png');
 }
 
 .container-label input:checked ~ .checkmark {
-    background-image: url('/img/radio-icon-checked.png');
+    background-image: url('../img/radio-icon-checked.png');
 }
 
 .privacy_body {
@@ -1755,27 +1755,27 @@ hr {
   }
 
   /* .t-short-1 {
-    background-image: url('/img/mcqueen-big.png');
+    background-image: url('../img/mcqueen-big.png');
   }
 
   .t-short-2 {
-    background-image: url('/img/mercury-big.png');
+    background-image: url('../img/mercury-big.png');
   }
 
   .t-short-3 {
-    background-image: url('/img/ali-big.png');
+    background-image: url('../img/ali-big.png');
   }
 
   .t-short-4 {
-    background-image: url('/img/dali-big.png');
+    background-image: url('../img/dali-big.png');
   }
 
   .t-short-5 {
-    background-image: url('/img/bowie-big.png');
+    background-image: url('../img/bowie-big.png');
   }
 
   .t-short-6 {
-    background-image: url('/img/guevara-big.png');
+    background-image: url('../img/guevara-big.png');
   } */
 
   .desktop_icon-text {
