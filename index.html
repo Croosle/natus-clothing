@@ -44,7 +44,37 @@
         </div>
       </div>
 
-      <div data-src="pages/windows/welcome.html"></div>
+      <div class="window welcome-window">
+        <div class="window_header">
+          Welcome
+          <div class="window_close"></div>
+        </div>
+        <div class="window_body welcome-window_body">
+          <div class="welcome-window_title"></div>
+          <form class="" action="/" method="post" v-on:submit.prevent="sendWelcomeEmail">
+          <div class="window-welcome_body">
+            <div class="window-welcome_body-title">
+              <strong>Did you know...</strong>
+            </div>
+            <div class="window-welcome_desc">
+              If you subsrcibe to our newsletter, you'll be among the first to find out exclusive details about new releases.
+              <br>
+              <br>
+              To sign up, enter your email below and click OK:
+              <br>
+            </div>
+            <input type="email" class="window-welcome_input" v-model="welcomeEmail" name="" value="" required>
+          </div>
+          <div class="window_sidebar">
+            <button type="button" name="button" class="button open-window" data-link="legends-window">What's <span class="font-underline">N</span>ew</button>
+            <button type="button" name="button" class="button welcome_body-button open-window" data-link="shop-window"><span class="font-underline">S</span>hop</button>
+            <hr>
+            <br>
+            <button type="submit" name="button" class="button current button_close">OK</button>
+          </div>
+          </form>
+        </div>
+      </div>
 
       <div class="window shop-window">
         <div class="window_header">
